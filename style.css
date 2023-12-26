@@ -955,7 +955,15 @@ footer{
 
 @media screen  and (min-height: 700px) {
     .page1, .page2, .page3, .page5, .page4 {
-        height: 130vh;
+        height: 120vh;
+        position: relative;
+  
+    }
+  }
+  
+@media screen  and (min-height: 600px) {
+    .page1, .page2, .page3, .page5, .page4 {
+        height: 120vh;
         position: relative;
   
     }

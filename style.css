@@ -23,6 +23,7 @@ html,body{
 }
 .page1, .page2, .page3, .page4 {
     height: 100vh;
+    position: relative;
     /* Other specific styles for each page */
 }
 .page1{

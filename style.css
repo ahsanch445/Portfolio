@@ -22,7 +22,7 @@ html,body{
 
 }
 .page1, .page2, .page3, .page5,.page4 {
-    height: 105vh;
+    height: 115vh;
     position: relative;
     /* Other specific styles for each page */
 }
@@ -953,17 +953,17 @@ footer{
 }
 
 
-@media screen  and (min-height: 700px) {
+@media screen  and (max-height: 700px) {
     .page1, .page2, .page3, .page5, .page4 {
-        height: 120vh;
+        height: 100vh;
         position: relative;
   
     }
   }
   
-@media screen  and (min-height: 600px) {
+@media screen  and (max-height: 750px) {
     .page1, .page2, .page3, .page5, .page4 {
-        height: 120vh;
+        height: 100vh;
         position: relative;
   
     }

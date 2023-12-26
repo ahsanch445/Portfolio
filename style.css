@@ -962,7 +962,7 @@ footer{
   
 @media screen and (min-height: 600px) and (max-height: 600px) {
     .page1, .page2, .page3, .page5, .page4 {
-        height: 120vh;
+        height: 140vh;
   
     }
   }

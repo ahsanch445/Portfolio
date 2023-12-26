@@ -21,14 +21,14 @@ html,body{
     font-family: Arial, Helvetica, sans-serif;
 
 }
-.page1, .page2, .page3, .page4 {
-    height: 100vh;
+.page1, .page2, .page3, .page5,.page4 {
+    height: 110vh;
     position: relative;
     /* Other specific styles for each page */
 }
 .page1{
     position: relative;
-height: 100vh;
+
 width: 100%;
 background-color: #ffff;
 
@@ -233,7 +233,7 @@ font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .page2{
-   height: 100vh;
+  
     width: 100%;
     background-color: #FCDA69;
     display: flex;
@@ -369,8 +369,7 @@ color: #F5F5F5;
 }
 .page3{
 
-height: 100vh;
-  
+
 display: flex;
 width: 100%;
 ;
@@ -551,7 +550,7 @@ width: 70%;
 }
 .page4{
 width: 100%;
-height: 100vh;
+
 background-color: #FCDA69;
 }
 .project{
@@ -646,7 +645,7 @@ background-color: #FCDA69;
 .page5{
  position: relative;
     width: 100%;
-    height: 100vh;
+
     background-color: #F5F5F5;
 }
 .clientcontent{
@@ -801,7 +800,7 @@ opacity: 0.8;
 }
 .page6{
     width: 100%;
-    height: 100vh;
+ 
     background-color: #FCDA69;
 
 
@@ -954,9 +953,9 @@ footer{
 }
 
 
-@media screen and (max-width: 1400px) and (max-height: 700px) {
-    .page1, .page2, .page3, .page4 {
-        height: 120vh;
+@media screen  and (min-height: 700px) {
+    .page1, .page2, .page3, .page5, .page4 {
+        height: 130vh;
         position: relative;
   
     }
